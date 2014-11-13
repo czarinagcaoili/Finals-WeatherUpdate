@@ -1,0 +1,456 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:background="#2ECCFA"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+           android:gravity="center"
+           
+            android:text="PUBLIC SAFETY AND DISASTER PREPAREDNESS"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        
+        android:background="#2ECCFA" >
+
+         <Button
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:textSize="10dp"
+            android:textColor="#000000"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="UPDATES" />
+
+        <Button
+            android:id="@+id/forecast"
+            android:textColor="#000000"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:textSize="12dp"
+            android:text="FORECAST SYMBOLS AND TERMS" />
+        <Button
+            android:id="@+id/hotlines"
+            android:textColor="#000000"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.2"
+            android:textSize="12dp"
+            android:text="HOTLINES" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7.5"
+        android:padding="10dp"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000FF"
+                    android:text="Public Storm Warning Signal # 1: " />
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000FF" />
+
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="METEOROLOGICAL CONDITIONS: "
+                     android:textStyle="bold" />
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	A tropical cyclone will affect the locality. "
+                     />
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Winds of 30-60 kph may be expected in at least 36 hours or intermittent rains may be expected within 36 hours.  "
+                     />
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="IMPACT OF THE WINDS:"
+                     android:textStyle="bold" />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Twigs and branches of small trees may be broken." />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Some banana plants may be tilted or downed." />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Some houses of very light materials (nipa and cogon) may be partially unroofed."/>
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="PRECAUTIONARY MEASURES:"
+                     android:textStyle="bold" />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	When the tropical cyclone is strong or is intensifying and is moving closer, this signal may be upgraded to the next higher level." />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	The waves on coastal waters may gradually develop and become bigger and higher." />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	When the tropical cyclone is strong or is intensifying and is moving closer, this signal may be upgraded to the next higher level." />
+                 
+                  <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"/>
+                  
+                 <!-- NEXT -->
+                 
+                 
+                                 <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000FF"
+                    android:text="Public Storm Warning Signal # 2: " />
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000FF" />
+
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="METEOROLOGICAL CONDITIONS: "
+                     android:textStyle="bold" />
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	A tropical cyclone will affect the locality. "
+                     />
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Winds of greater than 60 kph and up to 100 kph may be expected in at least 24 hours." />
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="IMPACT OF THE WINDS:"
+                     android:textStyle="bold" />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Some coconut trees may be tilted with few others broken." />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Few big trees may be uprooted." />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	In general, the winds may bring light to moderate damage to the exposed communities." />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="PRECAUTIONARY MEASURES:"
+                     android:textStyle="bold" />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	The sea and coastal waters are dangerous to small seacrafts" />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Special attention should be given to the latest position, the direction and speed of movement and the intensity of the storm as it may intensify and move towards the locality." />
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	The general public especially people travelling by sea and air are cautioned to avoid unnecessary risks." />
+                 
+                  <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"/>
+                  
+                 <!-- NEXT -->
+                 
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000FF"
+                    android:text="Public Storm Warning Signal # 3: " />
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000FF" />
+
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="METEOROLOGICAL CONDITIONS: "
+                     android:textStyle="bold" />
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	A tropical cyclone will affect the locality. "
+                     />
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Winds of greater than 100 kph up to 185 kph may be expected in at least 18 hours." />
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="IMPACT OF THE WINDS:"
+                     android:textStyle="bold" />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Majority of all nipa and cogon houses may be unroofed or destroyed and there may be considerable damage to structures of light to medium construction." />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	There may be widespread disruption of electrical power and communication services." />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	In general, moderate to heavy damage may be experienced, particularly in the agricultural and industrial sectors." />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="PRECAUTIONARY MEASURES:"
+                     android:textStyle="bold" />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	The disturbance is dangerous to the communities threatened/affected." />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	The sea and coastal waters will be very dangerous to all seacrafts." />
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Travel is very risky especially by sea and air." />
+                
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	People are advised to seek shelter in strong buildings, evacuate low-lying areas and to stay away from the coasts and river banks." />
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Watch out for the passage of the eye of the typhoon indicated by a sudden occurrence of fair weather immediately after very bad weather with very strong winds coming gnerally from the north." />
+                
+                 
+                  <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"/>
+                  
+                 <!-- NEXT -->
+                 
+                 <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000FF"
+                    android:text="Public Storm Warning Signal # 4: " />
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000FF" />
+
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="METEOROLOGICAL CONDITIONS: "
+                     android:textStyle="bold" />
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	A tropical cyclone will affect the locality. "
+                     />
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Very strong winds of more than 185 kph may be expected in at least 12 hours." />
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="IMPACT OF THE WINDS:"
+                     android:textStyle="bold" />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Coconut plantation may suffer extensive damage." />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Many large trees may be uprooted." />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Rice and corn plantation may suffer severe losses." />
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Most residential and institutional buildings of mixed construction may be severely damaged." />
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Electrical power distribution and communication services may be severely disrupted." />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="PRECAUTIONARY MEASURES:"
+                     android:textStyle="bold" />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	The situation is potentially very destructive to the community." />
+                 
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	All travels and outdoor activities should be cancelled." />
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	Evacuation to safer shelters should have been completed since it may be too late under this situation." />
+                
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="•	With PSWS #4, the locality is very likely to be hit directly by the eye of the typhoon. As the eye of the typhoon approaches, the weather will continuously worsen with the winds increasing to its strongest coming generally from the north. Then a sudden improvement of the weather with light winds (a lull) will be experienced. This means that the eye of the typhoon is over the locality. This improved weather may last for one to two hours depending on the diameter of the eye and the speed of movement. As the eye moves out of the locality, the worst weather experienced before the lull will suddenly commence. This time the very strong winds will come generally from the south.rainfall" />
+                 
+                 
+                  <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"/>
+                  
+                 <!-- NEXT -->
+                 
+            
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
